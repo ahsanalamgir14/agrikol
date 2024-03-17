@@ -37,7 +37,7 @@
     },
     head(){
       return {
-        title: "Agrikol  | Why Choose us"
+        title: "Creative Engineering (Pvt) Ltd  | Why Choose us"
       }
     }
   }

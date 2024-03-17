@@ -1,8 +1,8 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Product Detail" />
-    <ProductDetail />
+    <PageHeader title="Certificate" />
+    <Certificate />
     <Footer />
   </div>
 </template>
@@ -11,18 +11,18 @@
 
   import Nav from "../components/Nav";
   import PageHeader from "../components/PageHeader";
-  import ProductDetail from "../components/ProductDetail";
+  import Certificate from "../components/Certificate";
   import Footer from "../components/Footer";
   export default {
     components: {
       Footer,
       PageHeader,
-      ProductDetail,
+      Certificate,
       Nav
     },
     head(){
       return {
-        title: "Creative Engineering (Pvt) Ltd  | Product Detail"
+        title: "Creative Engineering (Pvt) Ltd  | Certificate"
       }
     }
   }

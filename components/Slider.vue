@@ -13,7 +13,7 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">The best Agriculture products</div>
+                  <div class="sub-title">Creativity Innovation Quality</div>
                   <h1>Welcome to<br> agriculture Form</h1>
                   <div class="link-box">
                     <nuxt-link to="/about" class="thm-btn">Discover More</nuxt-link>
@@ -31,7 +31,7 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">The best Agriculture products</div>
+                  <div class="sub-title">Creativity Innovation Quality</div>
                   <h1>Welcome to<br> agriculture Form</h1>
                   <div class="link-box">
                     <nuxt-link to="/about" class="thm-btn">Discover More</nuxt-link>
@@ -49,7 +49,7 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">The best Agriculture products</div>
+                  <div class="sub-title">Creativity Innovation Quality</div>
                   <h1>Welcome to<br> agriculture Form</h1>
                   <div class="link-box">
                     <nuxt-link to="/about" class="thm-btn">Discover More</nuxt-link>

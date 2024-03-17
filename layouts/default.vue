@@ -12,7 +12,7 @@
     },
     head(){
       return {
-        title: "Agrikol - Vue Nuxt Template for Agriculture Farm & Farmers"
+        title: "Creative Engineering (Pvt) Ltd"
       }
     },
     mounted(){
