@@ -10,16 +10,17 @@
         </div>
         <div class="topbar-one__middle">
           <a href="/" class="main-nav__logo">
-            <p class="font-weight-bold f-20" style="font-size: 24px; color:green">Creative Engineering Pvt</p>
-            <!-- <img src="/assets/images/resources/image1.png" class="main-logo" alt="Awesome Image" /> -->
+            <!-- <p class="font-weight-bold f-20" style="font-size: 24px; color:green">Creative Engineering Pvt</p> -->
+            <img src="/assets/images/resources/logo.png" class="main-logo" alt="Creative Sustainability Group" style="width:190px;height:98px;" />
           </a>
         </div>
         <div class="topbar-one__right">
           <div class="topbar-one__social">
             <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+            
           </div>
         </div>
       </div>
@@ -59,43 +60,52 @@
               <li class="dropdown">
                 <nuxt-link to="/about-us">About Us</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/service">Vision and Mission</nuxt-link></li>
-                  <li><nuxt-link to="/service-detail">Milestones</nuxt-link></li>
-                  <li><nuxt-link to="/service-detail">Management</nuxt-link></li>
+                  <li><nuxt-link to="/vision-and-mission">Vision and Mission</nuxt-link></li>
+                  <li><nuxt-link to="/milestones">Milestones</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/management">Management</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/service-detail">Associated Companies</nuxt-link></li> -->
                 </ul><!-- /.sub-menu -->
               </li>
               <li class="dropdown">
-                <nuxt-link to="/projects">Products</nuxt-link>
+                <nuxt-link to="/products">Products</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/projects">Projects</nuxt-link></li>
-                  <li><nuxt-link to="/projects_detail">Projects Detail</nuxt-link></li>
+                  <li v-for="product in products"><nuxt-link :to="`/sub-products?name=${product.name}`">{{ product.name }}</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/projects_detail">Transmission Line Hardware</nuxt-link></li>
+                  <li><nuxt-link to="/projects_detail">Security Boxes & Safety</nuxt-link></li>
+                  <li><nuxt-link to="/projects_detail">Fiberglass Composite (FRP-GRP)</nuxt-link></li> -->
                 </ul><!-- /.sub-menu -->
               </li>
-              <li class="dropdown">
+              <li>
                 <nuxt-link to="/certificate">Certifications</nuxt-link>
-                <ul>
+                <!-- <ul>
                   <li><nuxt-link to="/product">Products</nuxt-link></li>
                   <li><nuxt-link to="/product-detail">Product Detail</nuxt-link></li>
                   <li><nuxt-link to="/cart">Cart</nuxt-link></li>
                   <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
-                </ul><!-- /.sub-menu -->
+                </ul>/.sub-menu -->
               </li>
-              <li class="dropdown">
-                <nuxt-link to="#">Associated Companies</nuxt-link>
+              <li>
+                <nuxt-link to="#">Services</nuxt-link>
                 <ul>
+                  <li><nuxt-link to="#">Sustainability & Environment</nuxt-link></li>
+                  <li><nuxt-link to="#">Renewable Energy</nuxt-link></li>
+                  </ul>
+                </li>
+              <li>
+                <nuxt-link to="#">Projects</nuxt-link>
+                <!-- <ul>
                   <li><nuxt-link to="/about">About</nuxt-link></li>
                   <li><nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link></li>
                   <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
                   <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-                </ul>
+                </ul> -->
               </li>
               <li class="dropdown">
                 <nuxt-link to="#">Jobs</nuxt-link>
-                <ul>
+                <!-- <ul>
                   <li><nuxt-link to="/news">News</nuxt-link></li>
                   <li><nuxt-link to="/news_detail">News Details</nuxt-link></li>
-                </ul><!-- /.sub-menu -->
+                </ul>/.sub-menu -->
               </li>
               <li>
                 <nuxt-link to="/contact">Contact</nuxt-link>
@@ -120,64 +130,48 @@
         <ul class="main-nav__navigation-box">
           <li class="dropdown current">
             <div class="menu-holder">Home<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
-            <ul>
-              <li><nuxt-link to="/">Home 01</nuxt-link></li>
-              <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
-              <li><nuxt-link to="/index3">Home 03</nuxt-link></li>
-              <li><nuxt-link to="/index4">Home 04</nuxt-link></li>
-              <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
-              <li class="dropdown">
-                <div class="menu-holder">Header Versions<button class="dropdown-btn"><i
-                      class="fa fa-angle-right"></i></button></div>
-                <ul>
-                  <li><nuxt-link to="/">Header 01</nuxt-link></li>
-                  <li><nuxt-link to="/index2">Header 02</nuxt-link></li>
-                  <li><nuxt-link to="/index3">Header 03</nuxt-link></li>
-                  <li><nuxt-link to="/index4">Header 04</nuxt-link></li>
-                  <li><nuxt-link to="/index5">Header 05</nuxt-link></li>
-                </ul><!-- /.sub-menu -->
-              </li>
-            </ul><!-- /.sub-menu -->
+        
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Services<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder"><nuxt-link to="/about-us">About Us</nuxt-link><button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
             <ul>
-              <li><nuxt-link to="/service">Services</nuxt-link></li>
-              <li><nuxt-link to="/service-detail">Services Detail</nuxt-link></li>
+              <li><nuxt-link to="/vision-and-mission">Vision & Mission</nuxt-link></li>
+              <li><nuxt-link to="/milestones">Milestones</nuxt-link></li>
             </ul><!-- /.sub-menu -->
           </li>
-          <li class="dropdown">
-            <div class="menu-holder">Our Projects<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button>
+          <!-- <li class="dropdown">
+            <div class="menu-holder">Products<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button>
             </div>
             <ul>
               <li><nuxt-link to="/projects">Projects</nuxt-link></li>
               <li><nuxt-link to="/projects_detail">Projects Detail</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+            </ul>
+          </li> -->
+          <li class="dropdown">
+            <div class="menu-holder"><nuxt-link to="/products">Products</nuxt-link><button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+                <ul>
+                  <li v-for="product in products"><nuxt-link :to="`/sub-products?name=${product.name}`">{{ product.name }}</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/projects_detail">Transmission Line Hardware</nuxt-link></li>
+                  <li><nuxt-link to="/projects_detail">Security Boxes & Safety</nuxt-link></li>
+                  <li><nuxt-link to="/projects_detail">Fiberglass Composite (FRP-GRP)</nuxt-link></li> -->
+                </ul>
+              </li>
+
+          <li>
+            <nuxt-link to="#">Certifications</nuxt-link>
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Shop<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">Services<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
             <ul>
-              <li><nuxt-link to="/product">Products</nuxt-link></li>
-              <li><nuxt-link to="/product-detail">Product Detail</nuxt-link></li>
-              <li><nuxt-link to="/cart">Cart</nuxt-link></li>
-              <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
+              <li><nuxt-link to="#">Sustainability & Environment</nuxt-link></li>
+              <li><nuxt-link to="#">Renewable Energy</nuxt-link></li>
             </ul><!-- /.sub-menu -->
           </li>
-          <li class="dropdown">
-            <div class="menu-holder">Pages<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
-            <ul>
-              <li><nuxt-link to="/about">About</nuxt-link></li>
-              <li><nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link></li>
-              <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
-              <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+          <li>
+            <nuxt-link to="#">Projects</nuxt-link>
           </li>
-          <li class="dropdown">
-            <div class="menu-holder">News<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
-            <ul>
-              <li><nuxt-link to="/news">News</nuxt-link></li>
-              <li><nuxt-link to="/news_detail">News Details</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+          <li>
+            <nuxt-link to="#">Jobs</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/contact">Contact</nuxt-link>
@@ -190,12 +184,14 @@
 </template>
 
 <script>
+ import {products} from '../data.ts'
 export default {
   name: "Nav",
   data() {
     return {
       sticky: false,
-      mobileToggle: false
+      mobileToggle: false,
+      products: products
     }
   },
   mounted() {

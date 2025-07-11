@@ -12,17 +12,15 @@
               </div>
             </div>
             <div class="testimonials_one_text">
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alteration in some form, by injected humour, or randomised words which
-                don't look even slightly believable.</p>
+              <p>We're proud of the positive feedback we receive about our products and services. Our customers value our commitment to quality, innovation, and excellent customer service.</p>
             </div>
             <div class="project_counted wow fadeInUp" data-wow-delay="300ms">
               <div class="icon_box">
                 <span class="icon-farmer"></span>
               </div>
               <div class="project-content">
-                <h3 class="counter">4,850000</h3>
-                <p>Agriculture projects are completed</p>
+                <h3 class="counter">1000+</h3>
+                <p>Projects are completed</p>
               </div>
             </div>
           </div>

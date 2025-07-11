@@ -5,11 +5,11 @@
         <div class="col-xl-4 col-lg-4">
           <div class="service_details_left">
             <ul class="list-unstyled service_all_list">
-              <li><a href="#">All Services</a></li>
-              <li class="active"><a href="#">Fresh Vegetables</a></li>
-              <li><a href="#">Agriculture Products</a></li>
-              <li><a href="#">Organic Products</a></li>
-              <li><a href="#">Dairy Products</a></li>
+             
+              <li class="active"><nuxt-link to="/about-us">About Us</nuxt-link></li>
+              <li><nuxt-link to="/vision-and-mission">Vision and Mission</nuxt-link></li>
+              <li><nuxt-link to="/milestones">Milestones</nuxt-link></li>
+              <li><nuxt-link to="/management">Management</nuxt-link></li>
             </ul>
             <div class="need_help_box">
               <h2>Need Help?</h2>
@@ -28,24 +28,27 @@
               <img src="/assets/images/service/service-detail_img_1.jpg" alt="">
             </div>
             <div class="harvest_innovations">
-              <h2>Harvest Innovations</h2>
-              <p>There are many variations of passages of psum available, but the majority have
-                suffered alteration in some form, by injected humour, or randomised words which
-                don't look even slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
-                text. Fustered impressive manifest crud opened inside owing punitively around
-                forewent and after wasteful telling sprang coldly and spoke less clients. Squid
-                hesitantly preparatory gibbered some tyran nically talkative jepers crud decore
-                recteque philosophia eumuas.</p>
+              <h2>About Us</h2>
+              <p class="justify-para">
+                The organization was incepted in 1993 with a Vision i.e. to provide our valued customers a vast and comprehensive range of Creative, Innovative and Quality Electrical, Metallurgical and FRP/GRP products, components and customized solutions rightly as per their desires and needs with extended reliability and commitment of after sale services.
 
-              <p class="harvest_innovations_bottom_text">Beyond more stoic this along goodness hey
+                Our Mission is rooted in the guiding philosophy and ethics of total customer satisfaction. Our greatest strength as an ISO 9001:2000 certified organization along with our supremacy as best electrical and engineering group is our unwavering commitment to completely fulfill the customer's needs & wants in a unmatched passion.
+                CREATIVE GROUP, Lahore, Pakistan is comprised of four major business units:
+                <ul>
+                  <li>Creative Engineering (Pvt.) Ltd.</li>
+                  <li>Vision Engineering (Pvt.) Ltd.</li>
+                  <li>Creative Sustainable Group Ltd.</li>
+                </ul>
+                The parent company “Creative Engineering” commenced business during 1993 and by the grace of Almighty-God in a period of 23 years it has expanded its business, factories & product lines tremendously & emerged into a Group now known as CREATIVE GROUP. For more information about our company and products, please check the relevant sections.</p>
+
+              <!-- <p class="harvest_innovations_bottom_text">Beyond more stoic this along goodness hey
                 this this wow manatee mongoose one as since a far flustered impressive manifest far
                 crud opened inside owing punitively around forewent and after wasteful telling
                 sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some
-                tyran nically talkative jeepers crud.</p>
+                tyran nically talkative jeepers crud.</p> -->
 
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-xl-6 col-lg-6">
                 <div class="service_details_single_img_box">
                   <img src="/assets/images/service/service-detail_img_2.jpg" alt="">
@@ -73,7 +76,7 @@
             </ul>
             <p class="service_details_last_text">Lorem Ipsum has been the ndustry standard dummy text
               ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book. It has survived not only five centuries.</p>
+              make a type specimen book. It has survived not only five centuries.</p> -->
           </div>
         </div>
       </div>

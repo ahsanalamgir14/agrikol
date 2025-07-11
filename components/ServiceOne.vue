@@ -8,8 +8,8 @@
           <img src="/assets/images/resources/leaf.png" alt="">
         </div>
       </div>
-      <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-6">
+      <div class="row d-flex justify-content-center">
+        <!-- <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="service_1_single wow fadeInUp">
             <div class="content">
               <h3>Fresh<br>vegetables</h3>
@@ -36,29 +36,29 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6">
+        </div> -->
+        <div class="col-xl-4 col-lg-3 col-md-6">
           <div class="service_1_single wow fadeInUp" data-wow-delay="600ms">
             <div class="content">
-              <h3>Fresh<br>vegetables</h3>
-              <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+              <h3>Sustainablity &<br>Environment</h3>
+              <p>Our services encompass a wide range of solutions dedicated to sustainability and environmental protection. From renewable energy initiatives to waste management strategies, we are committed to facilitating positive environmental impact across industries. Our tailored approaches aim to address pressing ecological challenges while fostering a culture of responsibility and stewardship for the planet.</p>
             </div>
             <div class="service_1_img">
-              <img src="/assets/images/service/service-1-img-3.jpg" alt="Service Image">
+              <img src="/assets/images/service/env&sus.jpg" alt="Service Image" width="200px" height="175px">
               <div class="hover_box">
                 <nuxt-link to="/service-detail"><span class="icon-left-arrow"></span></nuxt-link>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6">
+        <div class="col-xl-4 col-lg-3 col-md-6">
           <div class="service_1_single wow fadeInUp" data-wow-delay="900ms">
             <div class="content">
-              <h3>Fresh<br>vegetables</h3>
-              <p>Lorem ipsum is simply are many variations of pass of majority.</p>
+              <h3>Renewable<br>Energy</h3>
+              <p>Our services encompass a wide range of solutions dedicated to sustainability and environmental protection. From renewable energy initiatives to waste management strategies, we are committed to facilitating positive environmental impact across industries. Our tailored approaches aim to address pressing ecological challenges while fostering a culture of responsibility and stewardship for the planet.</p>
             </div>
             <div class="service_1_img">
-              <img src="/assets/images/service/service-1-img-4.jpg" alt="Service Image">
+              <img src="/assets/images/service/renew.jpg" alt="Service Image" width="200px" height="175px">
               <div class="hover_box">
                 <nuxt-link to="/service-detail"><span class="icon-left-arrow"></span></nuxt-link>
               </div>

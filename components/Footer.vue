@@ -30,7 +30,7 @@
               <ul class="footer-widget__links-list list-unstyled">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Products</a></li>
-                <li><a href="#">Associated Companies</a></li>
+                <!-- <li><a href="#">Associated Companies</a></li> -->
                 <li><a href="#">Latest News</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
@@ -79,9 +79,8 @@
                 <a href="tel:+92-42-35111727">+92-42-35111727</a>
                 <div class="site-footer__social">
                   <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
                 </div>
               </div>
             </div>
@@ -93,7 +92,7 @@
     <div class="site-footer_bottom">
       <div class="container">
         <div class="site-footer_bottom_copyright">
-          <p>@ Copyright 2024, <a href="#">Creative Engineering (Pvt) Ltd</a></p>
+          <p>@ Copyright 2007 - 2024, <a href="#">Creative Sustainability Group</a></p>
         </div>
         <div class="site-footer_bottom_menu">
           <ul class="list-unstyled">
