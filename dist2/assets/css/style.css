@@ -42,11 +42,11 @@ font-family: 'Amatic SC', cursive;*/
 :root {
   --thm-font: Arial, Helvetica, sans-serif;
   --heading-font: Arial, Helvetica, sans-serif;
-  --thm-base: #eddd5e;
+  --thm-base: #4f6fd7;
   --thm-base-rgb: 237, 221, 94;
   --thm-primary: #2563eb;
   --thm-primary-rgb: 91, 140, 81;
-  --thm-black: #404a3d;
+  --thm-black: #ccccc;
   --thm-black-rgb: 64, 74, 61;
   --thm-gray: #eceeef;
 }
