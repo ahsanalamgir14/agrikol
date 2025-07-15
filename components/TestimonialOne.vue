@@ -11,19 +11,19 @@
                 <img src="/assets/images/resources/leaf.png" alt="">
               </div>
             </div>
-            <div class="testimonials_one_text">
+            <div class="testimonials_one_text mb-4">
               <p>We're proud of the positive feedback we receive about our products and services. Our customers value
                 our commitment to quality, innovation, and excellent customer service.</p>
             </div>
-            <div class="project_counted wow fadeInUp" data-wow-delay="300ms">
+            <!-- <div class="project_counted wow fadeInUp" data-wow-delay="300ms">
               <div class="icon_box">
                 <span class="icon-farmer"></span>
               </div>
-              <div class="project-content">
+              <di`v class="project-content">
                 <h3 class="counter">1000+</h3>
                 <p>Projects are completed</p>
-              </div>
-            </div>
+              </di`v>
+            </div> -->
           </div>
         </div>
         <div class="col-xl-6 col-lg-6">
