@@ -44,7 +44,7 @@
               <p>Our services encompass a wide range of solutions dedicated to sustainability and environmental protection. From renewable energy initiatives to waste management strategies, we are committed to facilitating positive environmental impact across industries. Our tailored approaches aim to address pressing ecological challenges while fostering a culture of responsibility and stewardship for the planet.</p>
             </div>
             <div class="service_1_img">
-              <img src="/assets/images/service/env&sus.jpg" alt="Service Image" width="200px" height="175px">
+              <img src="/assets/images/service/env&sus.jpg" alt="Service Image" class="service-img">
               <div class="hover_box">
                 <nuxt-link to="/service-detail"><span class="icon-left-arrow"></span></nuxt-link>
               </div>
@@ -77,5 +77,11 @@
 </script>
 
 <style scoped>
-
+.service-img {
+  width: 200px;
+  height: 175px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
 </style>

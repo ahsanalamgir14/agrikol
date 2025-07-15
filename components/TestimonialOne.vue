@@ -12,7 +12,8 @@
               </div>
             </div>
             <div class="testimonials_one_text">
-              <p>We're proud of the positive feedback we receive about our products and services. Our customers value our commitment to quality, innovation, and excellent customer service.</p>
+              <p>We're proud of the positive feedback we receive about our products and services. Our customers value
+                our commitment to quality, innovation, and excellent customer service.</p>
             </div>
             <div class="project_counted wow fadeInUp" data-wow-delay="300ms">
               <div class="icon_box">
@@ -30,54 +31,54 @@
             <div class="testimonials_one_carousel owl-carousel">
               <no-ssr>
                 <carousel :items="1" :autoplay="true" :nav="false" :dots="true">
-              <div class="testimonials_one_single_item">
-                <div class="text">
-                  <p>This is due to their excellent service, and augue homero consectetuer in nam.
-                    Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
-                </div>
-                <div class="client_thumbnail">
-                  <div class="client_img">
+                  <div class="testimonials_one_single_item">
+                    <div class="text">
+                      <p>This is due to their excellent service, and augue homero consectetuer in nam.
+                        Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
+                    </div>
+                    <div class="client_thumbnail">
+                      <!-- <div class="client_img">
                     <img src="/assets/images/testimonials/testimonial-1-img-1.png"
                          alt="testimonial1-img">
+                  </div> -->
+                      <div class="client_title">
+                        <!-- <h4>Kevin Hardson</h4> -->
+                        <p>Customer</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="client_title">
-                    <h4>Kevin Hardson</h4>
-                    <p>Customer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonials_one_single_item">
-                <div class="text">
-                  <p>This is due to their excellent service, and augue homero consectetuer in nam.
-                    Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
-                </div>
-                <div class="client_thumbnail">
-                  <div class="client_img">
+                  <div class="testimonials_one_single_item">
+                    <div class="text">
+                      <p>This is due to their excellent service, and augue homero consectetuer in nam.
+                        Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
+                    </div>
+                    <div class="client_thumbnail">
+                      <!-- <div class="client_img">
                     <img src="/assets/images/testimonials/testimonial-1-img-1.png"
                          alt="testimonial1-img">
+                  </div> -->
+                      <div class="client_title">
+                        <!-- <h4>Kevin Hardson</h4> -->
+                        <p>Customer</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="client_title">
-                    <h4>Kevin Hardson</h4>
-                    <p>Customer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonials_one_single_item">
-                <div class="text">
-                  <p>This is due to their excellent service, and augue homero consectetuer in nam.
-                    Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
-                </div>
-                <div class="client_thumbnail">
-                  <div class="client_img">
+                  <div class="testimonials_one_single_item">
+                    <div class="text">
+                      <p>This is due to their excellent service, and augue homero consectetuer in nam.
+                        Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</p>
+                    </div>
+                    <div class="client_thumbnail">
+                      <!-- <div class="client_img">
                     <img src="/assets/images/testimonials/testimonial-1-img-1.png"
                          alt="testimonial1-img">
+                  </div> -->
+                      <div class="client_title">
+                        <!-- <h4>Kevin Hardson</h4> -->
+                        <p>Customer</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="client_title">
-                    <h4>Kevin Hardson</h4>
-                    <p>Customer</p>
-                  </div>
-                </div>
-              </div>
                 </carousel>
               </no-ssr>
             </div>
@@ -89,11 +90,9 @@
 </template>
 
 <script>
-    export default {
-        name: "TestimonialOne"
-    }
+export default {
+  name: "TestimonialOne"
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

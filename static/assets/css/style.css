@@ -42,11 +42,12 @@ font-family: 'Amatic SC', cursive;*/
 :root {
   --thm-font: Arial, Helvetica, sans-serif;
   --heading-font: Arial, Helvetica, sans-serif;
-  --thm-base: #eddd5e;
+  --thm-base: #4f6fd7;
   --thm-base-rgb: 237, 221, 94;
-  --thm-primary: #5b8c51;
+  --thm-primary: #60a5fa;
   --thm-primary-rgb: 91, 140, 81;
-  --thm-black: #404a3d;
+  --thm-white: #ffffff;
+  --thm-black: #000000;
   --thm-black-rgb: 64, 74, 61;
   --thm-gray: #eceeef;
 }
@@ -144,7 +145,7 @@ h6 {
   outline: none;
   background-color: var(--thm-base);
   font-size: 20px;
-  color: var(--thm-black);
+  color: var(--thm-white);
   font-weight: 600;
   padding: 23px 50px;
   border-radius: 5px;
@@ -840,7 +841,7 @@ h6 {
 .main-nav__main-navigation .main-nav__navigation-box>li:hover>a,
 .main-nav__main-navigation .main-nav__navigation-box>li.current>a,
 .main-nav__main-navigation .main-nav__navigation-box>li.current-menu-item>a {
-  color: var(--thm-black);
+  color: var(--thm-white);
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li:hover>a:before,
@@ -3057,7 +3058,7 @@ h6 {
 }
 
 .service_1_img .hover_box span {
-  color: var(--thm-black);
+  color: var(--thm-white);
   font-size: 15px;
   line-height: 50px;
   transform: rotate(180deg);
@@ -3073,7 +3074,7 @@ h6 {
 }
 
 .service_1_img .hover_box span:hover {
-  color: var(--thm-base);
+  color: var(--thm-white);
   background: var(--thm-primary);
 }
 
@@ -3650,7 +3651,7 @@ h6 {
 }
 
 .experience_box h2 {
-  color: var(--thm-black);
+  color: var(--thm-white);
   font-size: 60px;
   text-transform: uppercase;
   margin: 0;
@@ -3658,7 +3659,7 @@ h6 {
 
 .experience_box p {
   letter-spacing: 0.2em;
-  color: var(--thm-black);
+  color: var(--thm-white);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
