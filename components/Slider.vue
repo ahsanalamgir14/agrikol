@@ -26,7 +26,7 @@
               <div class="content">
                 <div class="inner">
                   <div class="sub-title">Creativity Innovation Quality</div>
-                  <h2 class="main-heading" style="font-size: 66px;margin-top: 43px;font-weight: 600;">Welcome to<br> Creative Sustainability Group</h2>
+                  <h2 class="main-heading" style="font-size: 40px;margin-top: 43px;font-weight: 600;">Welcome to<br> Creative Sustainability Group</h2>
                   <!-- <div class="link-box">
                     <nuxt-link to="/about" class="thm-btn">Discover More</nuxt-link>
                   </div> -->
