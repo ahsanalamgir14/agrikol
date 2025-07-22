@@ -22,7 +22,7 @@
     },
     head(){
       return {
-        title: "Agrikol  | Product Detail"
+        title: "Creative Engineering (Pvt) Ltd  | Product Detail"
       }
     }
   }

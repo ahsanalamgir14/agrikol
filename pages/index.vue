@@ -5,14 +5,14 @@
     <AboutOne />
     <ServiceOne />
     <BrandOne />
-    <FeaturedOne />
-    <VideoOne />
-    <TestimonialOne />
+    <!-- <FeaturedOne /> -->
+    <!-- <VideoOne /> -->
     <RecentProject />
-    <Benefits />
-    <ProductOne />
-    <BlogOne />
-    <CallToActionOne />
+    <!-- <Benefits /> -->
+    <!-- <ProductOne /> -->
+    <!-- <BlogOne /> -->
+    <!-- <CallToActionOne /> -->
+    <TestimonialOne />
     <Footer />
   </div>
 </template>

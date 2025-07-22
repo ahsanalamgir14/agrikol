@@ -12,9 +12,9 @@
         <div class="col-xl-4 col-lg-4">
           <div class="recent_project_single wow fadeInUp" data-wow-delay="300ms">
             <div class="project_img_box">
-              <img src="/assets/images/project/recent-pro-img-1.jpg" alt="Recent Project Img">
+              <img src="/assets/images/product/solar-power.jpg" class="project-img" alt="Recent Project Img">
               <div class="project_content">
-                <h3>organic<br>solutions</h3>
+                <h3>Solar<br>Power</h3>
               </div>
               <div class="hover_box">
                 <nuxt-link to="/projects_detail"><span class="icon-left-arrow"></span></nuxt-link>
@@ -25,9 +25,9 @@
         <div class="col-xl-4 col-lg-4">
           <div class="recent_project_single wow fadeInUp" data-wow-delay="600ms">
             <div class="project_img_box">
-              <img src="/assets/images/project/recent-pro-img-2.jpg" alt="Recent Project Img">
+              <img src="/assets/images/product/wastewater.jpg" class="project-img" alt="Recent Project Img">
               <div class="project_content">
-                <h3>Harvest<br>Innovations</h3>
+                <h3>Waste<br>Water</h3>
               </div>
               <div class="hover_box">
                 <nuxt-link to="/projects_detail"><span class="icon-left-arrow"></span></nuxt-link>
@@ -38,9 +38,9 @@
         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="900ms">
           <div class="recent_project_single">
             <div class="project_img_box">
-              <img src="/assets/images/project/recent-pro-img-3.jpg" alt="Recent Project Img">
+              <img src="/assets/images/product/solar-lights.jpg" class="project-img" alt="Recent Project Img">
               <div class="project_content">
-                <h3>Agriculture<br>farming</h3>
+                <h3>Solar<br>Lights</h3>
               </div>
               <div class="hover_box">
                 <nuxt-link to="/projects_detail"><span class="icon-left-arrow"></span></nuxt-link>
@@ -54,11 +54,16 @@
 </template>
 
 <script>
-    export default {
-        name: "RecentProject"
-    }
+export default {
+  name: "RecentProject"
+}
 </script>
 
 <style scoped>
-
+.project-img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  display: block;
+}
 </style>

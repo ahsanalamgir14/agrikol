@@ -22,7 +22,7 @@
     },
     head(){
       return {
-        title: "Agrikol  | News"
+        title: "Creative Engineering (Pvt) Ltd  | News"
       }
     }
   }

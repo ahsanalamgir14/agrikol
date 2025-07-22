@@ -1,11 +1,11 @@
 {
-  "name": "agrikol",
+  "name": "creative_engineering",
   "version": "1.0.0",
-  "description": "Agrikol - Vue Nuxt Template for Agriculture Farm & Farmers",
-  "author": "Layerdrops",
+  "description": "Creative Engineering (Pvt) Ltd",
+  "author": "creative",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port 3001",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
